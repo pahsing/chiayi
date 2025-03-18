@@ -3340,3 +3340,22 @@ input, select, textarea {
 			}
 
 	}
+
+img, .image {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.image:before {
+    display: none !important;
+}
+
+div {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+}
