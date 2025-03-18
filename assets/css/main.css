@@ -1859,6 +1859,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
+			display: none !important;
 		}
 
 		.image.fit {
