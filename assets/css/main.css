@@ -3346,6 +3346,12 @@ img, .image {
     box-shadow: none !important;
 }
 
+img {
+    width: 100%; /* 讓圖片填滿 col-3 */
+    height: auto; /* 保持原比例 */
+    display: block; /* 避免多餘空白 */
+}
+
 .image:before {
     display: none !important;
 }
@@ -3358,4 +3364,16 @@ div {
 table {
     border-collapse: collapse;
     border: none;
+}
+
+@media (max-width: 768px) {
+    .col-3 {
+        width: 50%; /* 中等螢幕 2 張圖片並排 */
+    }
+}
+
+@media (max-width: 480px) {
+    .col-3 {
+        width: 100%; /* 小螢幕單獨顯示 */
+    }
 }
