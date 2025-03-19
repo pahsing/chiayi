@@ -2598,11 +2598,11 @@ input, select, textarea {
 
 	#gta {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
+		background-color: #f3f3f3;
 		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner3.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: width: 100% auto, cover;
+		background-size: auto, cover;
 		color: #fff;
 		padding: 5em;
 		text-align: center;
