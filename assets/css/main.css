@@ -3366,20 +3366,34 @@ table {
     border: none;
 }
 
-@media (max-width: 992px) {
-    .col-3 {
-        width: 25%; /* 大螢幕單獨顯示 */
-    }
+.image-gallery {
+  display: grid;
+  gap: 16px; /* 圖片之間的間距 */
 }
 
-@media (max-width: 768px) {
-    .col-3 {
-        width: 50%; /* 中等螢幕 2 張圖片並排 */
-    }
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-@media (max-width: 480px) {
-    .col-3 {
-        width: 100%; /* 小螢幕單獨顯示 */
-    }
+/* 手機：每列 1 張 */
+@media (max-width: 575.98px) {
+  .image-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 平板：每列 2 張 */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .image-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 桌機：每列 4 張 */
+@media (min-width: 992px) {
+  .image-gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
