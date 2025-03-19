@@ -2217,7 +2217,7 @@ input, select, textarea {
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
-			background-size: 30em, 30em;
+			background-size: 25em, 25em;
 			color: #fff;
 		}
 
@@ -2234,9 +2234,9 @@ input, select, textarea {
 			.wrapper.style2 input[type="reset"].primary,
 			.wrapper.style2 button.primary,
 			.wrapper.style2 .button.primary {
-				background: #fff;
+				background: #75d187;
 				border-color: #fff;
-				color: #83d3c9 !important;
+				color: #75d187 !important;
 			}
 
 				.wrapper.style2 input[type="button"].primary:hover,
