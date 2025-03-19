@@ -2217,7 +2217,7 @@ input, select, textarea {
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
-			background-size: 25em, 25em;
+			background-size: 30em, 30em;
 			color: #fff;
 		}
 
