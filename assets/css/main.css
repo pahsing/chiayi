@@ -2601,7 +2601,7 @@ input, select, textarea {
 		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner3.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-size: width: 100% auto, cover;
 		color: #fff;
 		padding: 5em;
 		text-align: center;
