@@ -3366,34 +3366,3 @@ table {
     border: none;
 }
 
-.image-gallery {
-  display: grid;
-  gap: 16px; /* 圖片之間的間距 */
-}
-
-.image-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* 手機：每列 1 張 */
-@media (max-width: 575.98px) {
-  .image-gallery {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* 平板：每列 2 張 */
-@media (min-width: 576px) and (max-width: 991.98px) {
-  .image-gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* 桌機：每列 4 張 */
-@media (min-width: 992px) {
-  .image-gallery {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
