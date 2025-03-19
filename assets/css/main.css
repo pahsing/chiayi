@@ -3366,9 +3366,9 @@ table {
     border: none;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 992px) {
     .col-3 {
-        width: 30%; /* 大螢幕單獨顯示 */
+        width: 25%; /* 大螢幕單獨顯示 */
     }
 }
 
