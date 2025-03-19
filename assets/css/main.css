@@ -2172,6 +2172,7 @@ input, select, textarea {
 			background: #75D187;
 			border-color: #A0DDAC;
 			color: #fff !important;
+			
 		}
 
 			input[type="button"].primary:hover,
@@ -2645,7 +2646,7 @@ input, select, textarea {
 		}
 
 			#footer .copyright a {
-				color: inherit;
+				color: #909090;
 			}
 
 			#footer .copyright li {
