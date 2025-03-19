@@ -3366,6 +3366,12 @@ table {
     border: none;
 }
 
+@media (max-width: 1080px) {
+    .col-3 {
+        width: 30%; /* 大螢幕單獨顯示 */
+    }
+}
+
 @media (max-width: 768px) {
     .col-3 {
         width: 50%; /* 中等螢幕 2 張圖片並排 */
