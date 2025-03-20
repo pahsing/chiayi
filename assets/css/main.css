@@ -3341,19 +3341,3 @@ input, select, textarea {
 	}
 
 
-.row {
-    display: flex;
-    flex-wrap: wrap; /* 讓元素換行 */
-    justify-content: space-between; /* 讓元素平均分配 */
-}
-
-.col-3 {
-    width: 23%; /* 讓 4 個 .col-3 平均分配空間 */
-}
-
-/* 手機（小螢幕）時，讓每行 2 個 */
-@media (max-width: 768px) {
-    .col-3 {
-        width: 48%; /* 讓 2 個元素佔滿一行 */
-    }
-}
