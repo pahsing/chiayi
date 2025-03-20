@@ -3340,4 +3340,41 @@ input, select, textarea {
 
 	}
 
+/* 手機螢幕：每行 2 張圖片 */
+@media screen and (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .col-3 {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+}
 
+/* 平板螢幕：每行 3 張圖片 */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .col-3 {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+}
+
+/* 桌機螢幕：每行 4 張圖片 */
+@media screen and (min-width: 1025px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .col-3 {
+        width: 23%;
+        margin-bottom: 10px;
+    }
+}
