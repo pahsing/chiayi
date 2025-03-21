@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>隱私權政策</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #f9f9f9;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    p {
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>隱私權政策</h1>
+  <p>歡迎您使用本網站。我們非常重視您的個人資料保護，請您詳細閱讀本隱私權政策，以了解我們如何蒐集、使用及保護您的資訊。</p>
+
+  <h2>一、資料的蒐集方式</h2>
+  <p>我們可能會在您使用網站功能時蒐集您的個人資訊，例如：姓名、電子郵件、聯絡方式等。</p>
+
+  <h2>二、資料的使用目的</h2>
+  <p>您的資料將可能用於以下用途：</p>
+  <ul>
+    <li>提供服務或功能</li>
+    <li>客戶聯絡與回覆查詢</li>
+    <li>網站內容優化與使用者體驗改善</li>
+  </ul>
+
+  <h2>三、資料保護</h2>
+  <p>我們採取合理的技術與管理措施，保護您的個人資料不被未經授權的存取、修改、洩漏或毀損。</p>
+
+  <h2>四、第三方服務</h2>
+  <p>本網站可能連結至第三方網站，請注意該等網站的隱私權政策可能與我們不同。</p>
+
+  <h2>五、隱私權政策變更</h2>
+  <p>本政策如有修改，將會公告於網站上，不另行通知。</p>
+
+  <h2>六、聯絡我們</h2>
+  <p>如您對本政策有任何疑問，請聯絡我們：<a href="mailto:pahsing.tw@gmail.com">pahsing.tw@gmail.com</a></p>
+</body>
+</html>
