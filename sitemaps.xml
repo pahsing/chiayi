@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://pahsing-helmet.com/</loc>
-<lastmod>2025-03-23</lastmod>
+<lastmod>2025-07-26</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://pahsing-helmet.com/helmet_cleaning</loc>
+<lastmod>2025-07-26</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1.0</priority>
 </url>
 <url>
 <loc>https://pahsing-helmet.com/privacy</loc>
-<lastmod>2025-03-23</lastmod>
+<lastmod>2025-07-26</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1.0</priority>
 </url>
