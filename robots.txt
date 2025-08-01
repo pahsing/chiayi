@@ -1,1 +1,1 @@
-Sitemap: https://pahsing-helmet.com/sitemap.xml
+Sitemap: https://pahsing-helmet.com/sitemaps.xml
